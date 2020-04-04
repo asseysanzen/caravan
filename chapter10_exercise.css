@@ -18,6 +18,7 @@ main{
 	float: left;
 	width: 300px;
 	padding: 10px;
+	margin-right: 30px;
 	border: 1px solid #eee;
 	position: relative;
 }
@@ -53,4 +54,20 @@ main{
 
 .title{
 	margin: 15px 0 5px;
+}
+
+@media screen and (max-width: 768px){
+main{
+	width: 100%;
+}
+.step-box{
+	float: none;
+	width: 90%;
+	margin-bottom: 20px;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.step-box:last-child{
+	margin-bottom: 0;
+}
 }
